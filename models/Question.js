@@ -13,7 +13,9 @@ class Question{
       })      
     })
   }
-
+  static Find(id) {
+    
+  }
   constructor(content){
     this.content = content
   }
