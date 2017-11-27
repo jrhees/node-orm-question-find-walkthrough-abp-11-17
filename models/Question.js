@@ -14,7 +14,9 @@ class Question{
     })
   }
   static Find(id) {
-
+    return new Promise(function(resolve) {
+      resolve("Test")
+    })
   }
   constructor(content){
     this.content = content
